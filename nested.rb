@@ -19,10 +19,16 @@ def hopper
 
 end
 
-def alan_kay_is_known_for
+def alan_kay_is_known_for {
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
 	
+	 :known_for => "Object Orientation",}
+	
 	programmer_hash = 
+	
+ #   :known_for => "Ruby",
+#    :languages => ["LISP", "C"]
+# }
  		{
         :grace_hopper => {
           :known_for => "COBOL",
